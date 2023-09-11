@@ -1,6 +1,6 @@
 body,
 h1,
-p,
+h3,
 a {
   margin: 0;
   padding: 0;
@@ -30,19 +30,19 @@ img {
 }
 
 /* Current Day of the Week */
-p[data-testid="currentDayOfTheWeek"] {
+h3[data-testid="currentDayOfTheWeek"] {
   font-size: 24px;
   margin-top: 20px;
 }
 
 /* Current UTC Time */
-p[data-testid="currentUTCTime"] {
+h3[data-testid="currentUTCTime"] {
   font-size: 24px;
   margin-top: 20px;
 }
 
 /* My Track */
-p[data-testid="myTrack"] {
+h3[data-testid="myTrack"] {
   font-size: 24px;
   margin-top: 20px;
   color: #ff5733;
